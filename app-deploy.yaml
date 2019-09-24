@@ -8,7 +8,7 @@ spec:
   version: 1.0.0
   applicationImage: kab-sample-nodejs 
   stack: nodejs-express
-  createKnativeService: true
+  createKnativeService: false
   service:
     type: NodePort
     port: 3000
