@@ -2,7 +2,7 @@ const app = require('express')()
 
 app.get('/', (req, res) => {
   var message = "";
-  message = "Hello from the Appsody Nodejs demo !!!!!!!! Time to deploy it with Tekton !!!! Strike 2";
+  message = "Hello from the Appsody Nodejs demo !!!!!!!! Time to deploy it with Tekton !!!! Strike 3";
   
   res.send(message);
 });
