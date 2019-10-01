@@ -18,7 +18,7 @@ app.get('/gethostinfo', function(req, res) {
     "hostname": hostname,
     "region": REGION
   }
-  console.log("Service gethostinfo returning " + JSON.stringify(hostobj));
+  console.log("INFO: Service gethostinfo returning " + JSON.stringify(hostobj));
   res.json(hostobj);
 });
 
