@@ -8,6 +8,7 @@ app.use(express.static(__dirname + "/public"));
 
 var REGION = process.env.REGION;
 
+console.log("INFO: Starting Kabanero demo app");
 console.log("INFO: REGION", REGION);
 
 // --------------------------------------------------------------------------
